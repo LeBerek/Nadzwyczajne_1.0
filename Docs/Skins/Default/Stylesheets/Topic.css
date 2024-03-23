@@ -432,30 +432,26 @@ a.glossaryTerm
 
 .dropDownHotspot
 {
-	color: #ff6b31;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 .dropDownHotspot:link
 {
-	color: #ff6b31;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
+	background-image: url('DropDownOpen.gif');
+	padding-left: 1px;
 	padding-right: 0;
 }
 
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('arrow-right-gray.png');
+	background-image: url('DropDownClosed.gif');
 	padding-left: 0px;
 	padding-right: 0;
 }
