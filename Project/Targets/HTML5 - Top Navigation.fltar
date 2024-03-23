@@ -14,15 +14,15 @@
   ConditionTagExpression="include[&quot;General.Audience A&quot;] exclude[&quot;General.Audience B&quot;] "
   DefaultUrl="/Content/Home.htm"
   MasterStylesheetOverride="true"
-  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  OutputFolder="C:\Dyplom\Nadzywczajne-Przewodnik_1.0"
-  OutputFile="Index.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/StylesForHomePage.css"
+  OutputFile="index.html"
   GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true" />
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
   <Destinations>
     <Destination
       Link="/Project/Destinations/Nadzwyczajne_1.fldes"

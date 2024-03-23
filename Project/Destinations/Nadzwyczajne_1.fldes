@@ -12,4 +12,5 @@
   ProviderType="Git"
   Database="file:///C:/Dyplom/Nadzywczajne-Przewodnik_1.0/.git/"
   DatabaseRoot="file:///C:/Dyplom/Nadzywczajne-Przewodnik_1.0/Docs"
-  PushToRemote="true"></CatapultDestination>
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
